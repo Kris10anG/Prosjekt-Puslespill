@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #2f2f2b;
+    color: #ffffff;
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto;
+}
+
+.container-left {
+    float: left;
+}
+
+.puzzle-title {
+    background-color: #2f2f2b;
+    margin: .2vh;
+    text-align: center;
+}
+
+.puzzle-title h1 {
+    font-family: 'Bebas Neue';
+    font-size: 4vh;
+    margin: 0;
+    padding: 0;
+    transition: 1.2s;
+}
+
+.puzzle-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    justify-content: start;
+}
+
+.puzzle-container div {
+    background-color: #FF7129;
+    width: 75px;
+    height: 75px;
+    margin: .2vh;
+    transition: .5s;
+}
+
+.container-right {
+    float: right;
+}
+
+.pieces-title {
+    margin: .2vh;
+    text-align: center;
+}
+
+.pieces-title h2 {
+    font-family: 'Bebas Neue';
+    font-size: 4vh;
+    margin: 0;
+    padding: 0;
+    transition: 1.2s;
+}
+
+.pieces-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    justify-content: start;
+}    
+
+.pieces-container div {
+    background-color: #FF7129;
+    width: 75px;
+    height: 75px;
+    margin: .2vh;  
+    transition: .5s;
+    background-size: 300px 300px;
+}
+
+.one {
+    background: url('img/terje_pusle22.png') 0px 0px;
+}
+
+.two {
+    background: url('img/terje_pusle22.png') -75px 0px;
+}
+
+.three {
+    background: url('img/terje_pusle22.png') -150px 0px;
+}
+
+.four {
+    background: url('img/terje_pusle22.png') -225px 0px;
+}
+
+.five {
+    background: url('img/terje_pusle22.png') 0px -75px;
+}
+
+.six {
+    background: url('img/terje_pusle22.png') -75px -75px;
+}
+
+.seven {
+    background: url('img/terje_pusle22.png') -150px -75px;
+}
+
+.eight {
+    background: url('img/terje_pusle22.png') -225px -75px;
+}
+
+.nine {
+    background: url('img/terje_pusle22.png') 0 -150px;
+}
+
+.ten {
+    background: url('img/terje_pusle22.png') -75px -150px;
+}
+
+.eleven {
+    background: url('img/terje_pusle22.png') -150px -150px;
+}
+
+.twelve {
+    background: url('img/terje_pusle22.png') -225px -150px;
+}
+
+.thirteen {
+    background: url('img/terje_pusle22.png') 0 -225px;
+}
+
+.fourteen {
+    background: url('img/terje_pusle22.png') -75px -225px;
+}
+
+.fifteen {
+    background: url('img/terje_pusle22.png') -150px -225px;
+}
+
+.sixteen {
+    background: url('img/terje_pusle22.png') -225px -225px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .wrapper {
+        width: 600px;
+    }
+
+    .pieces-title h2 {
+        font-size: 2vh; 
+    }
+
+    
+    .puzzle-title h1 {
+        font-size: 2vh;
+    }
+
+
+    .puzzle-container div {
+        width: 5vh;
+        height: 5vh;
+    }
+
+    .pieces-container {
+        transform: scale(0.7);
+    }
+    
+}
