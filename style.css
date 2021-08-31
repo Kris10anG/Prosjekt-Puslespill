@@ -6,8 +6,9 @@ body {
 }
 
 .wrapper {
-    width: 960px;
+    width: 800px;
     margin: auto;
+    transition: width 1.2s;
 }
 
 .container-left {
@@ -22,7 +23,7 @@ body {
 
 .puzzle-title h1 {
     font-family: 'Bebas Neue';
-    font-size: 4vh;
+    font-size: 2em;
     margin: 0;
     padding: 0;
     transition: 1.2s;
@@ -40,7 +41,7 @@ body {
     width: 75px;
     height: 75px;
     margin: .2vh;
-    transition: .5s;
+    transition: width .5s, height .5s;
 }
 
 .container-right {
@@ -54,7 +55,7 @@ body {
 
 .pieces-title h2 {
     font-family: 'Bebas Neue';
-    font-size: 4vh;
+    font-size: 2em;
     margin: 0;
     padding: 0;
     transition: 1.2s;
@@ -143,26 +144,26 @@ body {
 @media screen and (max-width: 1000px) {
 
     .wrapper {
-        width: 600px;
+        width: 650px;
     }
 
     .pieces-title h2 {
-        font-size: 2vh; 
+        font-size: 2em; 
     }
 
     
     .puzzle-title h1 {
-        font-size: 2vh;
+        font-size: 2em;
     }
 
 
     .puzzle-container div {
-        width: 5vh;
-        height: 5vh;
+        width: 75px;
+        height: 75px;
     }
 
     .pieces-container {
-        transform: scale(0.7);
+        transform: scale(1);
     }
     
 }
