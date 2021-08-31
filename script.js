@@ -27,20 +27,3 @@ function place(element) {
         storeClass = '';
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//DU SKAL SITTE HER, juden schwein 
